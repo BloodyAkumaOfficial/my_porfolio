@@ -105,10 +105,10 @@ body {
 
 .dashboard_contacts > ul > li > a {
     display: block;
+    background: #d7c1a8;
     font-size: 17px;
     text-decoration: none;
     color: #000;
-    border: 1px solid #000;
     border-radius: 7px;
     padding: 5px;
     width: 80px;

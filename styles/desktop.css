@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, f;
+}
+
+body {
+    background: #eee5da;
+    padding: 15px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+}
+
+.dashboard {
+    width: 310px;
+}
+
+.dashboard_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_picture {
+    width: 250px;
+    height: 370px;
+    border-radius: 15px;
+    box-shadow: 7px 3px 23px -3px rgba(194,161,123,0.89);
+    transition: 0.3s;
+}
+
+.profile_picture:hover {
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+.profile_picture > img {
+    width: 250px;
+    height: 370px;
+    border-radius: 15px;
+}
+
+.dashboard_information {
+    margin-top: 20px;
+    padding: 20px;
+    width: 250px;
+    background: #af8452;
+    border-radius: 15px;
+    box-shadow: 7px 3px 23px -3px rgba(194,161,123,0.89);
+    transition: 0.3s;
+}
+
+.dashboard_information:hover {
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+.dashboard_information > h3 {
+    text-align: center;
+}
+
+.dashboard_contacts {
+    margin-top: 15px;
+}
+
+.dashboard_contacts > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard_contacts > ul > li {
+    margin-bottom: 15px;
+    text-align: center;
+    transition: 0.1s;
+}
+
+.dashboard_contacts > ul > li:hover {
+    scale: 1.1;
+    transition: 0.1s;
+}
+
+.dashboard_contacts > ul > li:last-child:hover {
+    scale: 1;
+}
+
+.dashboard_contacts > ul > li:nth-child(4) {
+    margin-bottom: 20px;
+}
+
+.dashboard_contacts > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.dashboard_contacts > ul > li > a {
+    display: block;
+    font-size: 17px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 5px;
+    width: 80px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    border: 1px solid #af8452;
+    border-radius: 15px;
+    box-shadow: 7px 3px 23px -3px rgba(194,161,123,0.89);
+}
+
+.information_about_me {
+    margin-top: 20px;
+    padding: 20px;
+    width: 680px;
+    background: #af8452;
+    border-radius: 15px;
+    box-shadow: 7px 3px 23px -3px rgba(194,161,123,0.89);
+    transition: 0.3s;
+}
+
+.information_about_me:hover {
+    scale: 1.02;
+    transition: 0.3s;
+}
+
+hr {
+    border-color: #000;
+    margin: 15px 0;
+}
+
+.information_my_stack {
+    margin-top: 20px;
+    padding: 20px;
+    width: 680px;
+    background: #af8452;
+    border-radius: 15px;
+    box-shadow: 7px 3px 23px -3px rgba(194,161,123,0.89);
+    transition: 0.3s;
+}
+
+.information_my_stack:hover {
+    scale: 1.02;
+    transition: 0.3s;
+}
+
+.information_my_stack_description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.my_stack {
+    transition: 0.1s;
+}
+
+.my_stack:hover {
+    scale: 1.05;
+    transition: 0.1s;
+}
+
+
+.information_my_stack_description > .my_stack > img {
+    display: block;
+    margin: 0 auto 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.information_my_stack_description > .my_stack > p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.information_my_project {
+    margin-top: 20px;
+    padding: 20px;
+    width: 680px;
+    background: #af8452;
+    border-radius: 15px;
+    box-shadow: 7px 3px 23px -3px rgba(194,161,123,0.89);
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+.information_my_project:hover {
+    scale: 1.02;
+    transition: 0.3s;
+}
+
+.project {
+    background: #d7c1a8;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    transition: 0.1s;
+}
+
+.project:hover {
+    scale: 1.02;
+    transition: 0.1s;
+}
+
+.project_title {
+    margin-bottom: -5px;
+}
+
+.project_description {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn_to_code {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    border-radius: 5px;
+    background: #af8452;
+    width: 120px;
+    text-align: center;
+    transition: 0.1s;
+    margin-top: 10px;
+}
+
+.btn_to_code:hover {
+    scale: 1.03;
+    transition: 0.1s;
+}
